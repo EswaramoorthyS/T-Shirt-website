@@ -1,0 +1,725 @@
+
+.bg{
+  margin: 0;
+  width: 100%;
+	background-color: white;
+}
+.iconcls{
+	font-size: 17px;
+	padding: 1px;
+	color: black;
+}
+.iconmail{
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0 7%;
+}
+.iconmbl{
+	font-size: 12px;
+  float: right;
+  margin-top: 1%;
+  text-decoration: none;
+  padding: 0 6%;
+}
+.iconmenu{
+	color: black;
+  font-size: 12px;
+	padding: 0 1%;
+	text-decoration: none;
+}
+.mvimg{
+	width: 100%;
+  height: 800px;
+}
+
+
+
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: 0 -3% 0 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  text-decoration: none;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*  omg overCaption text */
+.text {
+  color: white;
+  font-size: 55px;
+  padding: 12px 12px;
+  position: absolute;
+  top: 18%;
+  width: 100%;
+  font-family: Verdana;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* img over txt*/
+.txt {
+  color: white;
+  font-size: 25px;
+  padding: 12px 12px;
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  font-family: Verdana;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* img over txt*/
+.txt1 {
+  color: white;
+  font-size: 15px;
+  padding: 12px 12px;
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  font-family: Verdana;
+  line-height: 2.1;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  bottom:165px;
+  position: relative;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #ff1fb4;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.mainf{
+  font-size: 12px;
+  color: white;
+}
+.maintxt{
+  margin-top: 7%;
+  margin-left: 5%;
+  position: absolute;
+}
+.maintxt1{
+  margin-left: 11%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.maintxt2{
+  margin-left: 19%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.maintxt3{
+  margin-left: 23%;
+  margin-top: 7%;
+  color: white;
+  position: absolute;
+}
+.maintxt4{
+  margin-left: 33%;
+  margin-top: 7%;
+  position: absolute;
+}
+.maintxt5{
+  margin-left: 43%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+
+.maintxt6{
+  margin-left: 50%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.maintxt7{
+  margin-left: 58%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.maintxt8{
+  margin-left: 66%;
+  margin-top: 7%;
+  position: absolute;
+}
+.maintxt9{
+  margin-left: 74%;
+  margin-top: 7%;
+  position: absolute;
+}
+.maintxt10{
+  margin-left: 82%;
+  margin-top: 7%;
+  position: absolute;
+}
+/* img over logo txt */
+.logtxt {
+  color: white;
+  font-size: 37px;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 24%;  
+  font-family: Verdana;
+  font-weight: 500;
+  text-align: center;
+}
+.logtxt1 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  margin-top: 30%;
+  font-family: arial;
+  font-weight: 500;
+  margin-left: 24%;
+}
+
+.logtxt2 {
+  color: white;
+  float: right;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 20%;
+  font-family: Verdana;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+/* img ovr btn*/
+.vbtn{
+  background-color: #ff1fb4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  top: 60%;
+  left: 35%;
+  position: absolute;
+  cursor: pointer;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.rbtn{
+  background-color: #ff1fb4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  top: 60%;
+  left: 58%;
+  position: absolute;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.tshirt{
+  color: black;
+  margin: 2%;
+  font-size: 30px;
+  text-align: center;
+}
+.tshirttxt{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* flex ing with txt*/
+.row {
+  margin: 1%;
+}
+.imgtxt {
+  position: absolute;
+  top: 65%;
+  left: 32%;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  text-align: center;
+  color: white;
+}
+
+.imgtxt1 {
+  position: absolute;
+  top: 75%;
+  left: 32%;
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  color: white;
+}
+/* Create three equal columns that sits next to each other */
+
+.colimg{
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* plain t shirt gallery*/
+.g:hover{
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+
+/* plain t shirt gallery*/
+
+
+
+.ptxt{
+  color: black;
+  margin-left: 15%;
+  padding: 10%;
+  font-size: 35px;
+  font-family: Arial;
+}
+.ptxt1{
+  color: black;
+  margin-left: 15%;
+  margin-right: 11%;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: Arial;
+}
+.pinkbr{
+  margin: 8% 12% 8% 20%;
+  opacity: 0.7;
+  background-color: #FF69B4;
+  border-radius: 7px;
+}
+.pinkimg{
+  margin: 10%;
+  width: 100%;
+  border-radius: 10px;
+}
+.pinkbg{
+  margin: 0;
+  background-color: #FFEFD5;
+}
+
+.pinktxt{
+  color: black;
+  padding: 10%;
+  font-size: 35px;
+  font-family: Arial;
+}
+.pinktxt1{
+  color: black;
+  margin-left: 11%;
+  margin-right: 11%;
+  text-align: left;
+  font-size: 15px;
+   line-height: 1.6;
+  font-family: Arial;
+}
+/* flex img gallery*/
+
+.crimg{
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/* img ovr btn*/
+.cbtn{
+  background-color: #ff1fb4;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  left: 35%;
+  position: absolute;
+  cursor: pointer;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.cbtn1{
+  background-color: #ff1fb4;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  left: 50%;
+  position: absolute;
+  cursor: pointer;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+/* plain t shirt gallery white polo*/
+.poloimg{
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  border-radius: 10%;
+}
+
+.polotxt{
+  color: black;
+  margin-top: 22%;
+  text-align: right;
+  font-size: 35px;
+  font-family: Arial;
+}
+.polotxt1{
+  color: black;
+  text-align: right;
+  margin-left: 30%;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: Arial;
+}
+
+.pbtn{
+  background-color: #ff1fb4;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  left: 40%;
+  margin-top: 2%;
+  position: absolute;
+  cursor: pointer;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* after big screen*/
+.lngtxt{
+  font-size: 18px;
+  margin: 10% 8% 5% 8%;
+  text-align: center;
+  color: black;
+}
+
+.fab{
+  display: flex;
+  margin: 5% 7%;
+  background-color: white;
+  box-sizing: border-box;
+}
+.fabcol{
+  flex: 25%;
+  border: 2px #888888;
+  margin: 1% 5px; 
+  height: 370px;
+  border-radius: 70px 70px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+}
+.fimg{
+  border-radius: 50%;
+  padding: 10px 20px 10px 23%;
+}
+.fabtxt{
+  font-size: 20px;
+  margin: 1%;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px 40px;
+}
+.fabtxt1{
+  font-size: 14px;
+  margin: 1% 8%;
+  text-align: center;
+}
+
+/* embordary */
+.embor {
+  display: flex;
+  border: 2px;
+  height: 470px;
+  background-color: #FFEFD5;
+  margin: 3% 8%;
+  padding: 10px;
+  border-radius:30px;
+  border-top-right-radius: 200% 90%;
+}
+
+.emborcol{
+  flex: 50%;
+  padding: 6px;
+}
+.emborimg{
+  height: 490px;
+  width: 25%;
+  position: absolute;
+  margin-top: -15%;
+  left: 60%;
+  border-radius: 10px;
+}
+
+.embortxt{
+  color: black;
+  margin-top: 17%;
+  color: #ff1fb4;
+  font-weight: bold;
+  margin-left: 10%;
+  font-size: 35px;
+  font-family: Arial;
+}
+.embortxt1{
+  color: black;
+  margin-left:4%;
+  margin-left: 10%;
+  margin-right: 45%;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: Arial;
+}
+
+.emborbtn{
+  background-color: #ff1fb4;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-left: 12%;
+  position: absolute;
+  cursor: pointer;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+/* black with a form*/
+
+.form{
+  background-color: black;
+}
+.formtxt{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.formtxt1{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.formimg{
+  width: 100%;
+  height: 100%;
+}
+
+input[type=text],
+[type=Email],
+[type=password]
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 3px 9% 4px 30%;
+    display: inline-block;
+    border: 2px solid #ccc;
+    font-weight: bold;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.tt{
+    width: 40%;
+    margin-left: 30%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 3px 9% 4px 30%;
+    display: inline-block;
+    border: 2px solid #ccc;
+    font-weight: bold;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #ff1fb4;
+    color: white;
+    padding: 6px 18px;
+    margin: 3px 9% 4px 31%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formimgtxt{
+  position: absolute;
+  padding: 5%;
+  color: white;
+  font-size: 18px;
+}
+
+.formimgtxt1{
+  margin-top: 4%;
+  position: absolute;
+  padding: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.formimgtxt2{
+  margin-top: 11%;
+  margin-right: 28%;
+  position: absolute;
+  color: white;
+  padding: 5%;
+  font-size: 12px;
+}
+
+.formimgtxt3{
+  margin-top: 20%;
+  position: absolute;
+  padding: 5%;
+  color: #ff1fb4;
+  font-size: 30px;
+}
+
+.formimgtxt4{
+  margin-top: 27%;
+  margin-right: 22%;
+  position: absolute;
+  color: white;
+  padding: 5%;
+  font-size: 12px;
+  margin-left: 2%;
+}
+
+.formimgtxt5{
+  margin-top: 32%;
+  padding: 5%;
+  position: absolute;
+  color: #ff1fb4;
+  font-size: 30px;
+}
+
+.formimgtxt6{
+  margin-top: 40%;
+  margin-right: 22%;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  padding: 5%;
+  margin-left: 2%;
+}
+
+.formimgtxt7{
+  margin-top: 46%;
+  position: absolute;
+  color: #ff1fb4;
+  font-size: 30px;
+  padding: 5%;
+
+}
+
+.formimgtxt8{
+  margin-top: 55%;
+  margin-left: 2%;
+  margin-right: 22%;
+  position: absolute;
+  color: white;
+  padding: 5%;
+  font-size: 12px;
+}
+.endblack{
+  background-color: black;
+}
+.eblack{
+  display: flex;
+  margin: 0 10%;
+  box-sizing: border-box;
+}
+.eblackcol{
+  flex: 20%;
+  padding: 2%;
+}
+.etxt{
+  color: white;
+  font-size: 18px;
+}
+
+.etxt1{
+  color: white;
+  font-size: 12px;
+}
+.eline {
+  border-bottom: 2px solid gray;
+}
+.eline:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #ff1fb4;
+  margin-bottom: -2px;
+  max-width: 40px;
+}
+
+.ltxt{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.eicon{
+  padding: 4%;
+  font-size: 20px;
+  color: white;
+}
